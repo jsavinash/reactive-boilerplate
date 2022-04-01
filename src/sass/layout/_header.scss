@@ -1,0 +1,23 @@
+.header {
+  background-color: $color-grey-light-2;
+  a {
+    display: block;
+    float: none;
+    text-align: center;
+    &__logo {
+      font-size: 3.125rem;
+      font-weight: bold;
+      color: black;
+    }
+  }
+
+  a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  &__right {
+    a {
+      font-size: 2.25rem;
+    }
+  }
+}

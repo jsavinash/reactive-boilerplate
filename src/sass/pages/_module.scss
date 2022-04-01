@@ -1,0 +1,13 @@
+.module {
+  &__heading {
+    color: aqua;
+
+    @include respond(tab-port) {
+      color: pink;
+    }
+
+    @include respond(phone) {
+      color: red;
+    }
+  }
+}
